@@ -15,7 +15,7 @@ Features of Docker:-
 3-You can deploy Docker containers anywhere, on any physical and virtual machines and even on the cloud.Since Docker containers are pretty lightweight, they are very easily scalable.
 
 
-Components of Docker
+Components of Docker:-
 
 Docker has the following components
 
@@ -31,7 +31,7 @@ Docker has the following components
 
  Docker Compose − This is used to define applications using multiple Docker containers.
 
- Hardware and software requirements
+ Hardware and software requirements:-
  
     Linux kernel version 3.10 or higher
     CS Docker Engine version 1.10 or higher. Learn about the operating systems supported by CS Docker Engine.

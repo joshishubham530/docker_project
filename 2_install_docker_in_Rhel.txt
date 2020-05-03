@@ -1,0 +1,10 @@
+    *************Installation of docker*************
+To install docker in Redhat(RHEL8) follow these steps:-
+1- configure yum.
+2-Stop firewall
+	systemctl stop firewalld
+3- Run command
+	yum install docker-ce --nobest
+4:-To check version of docker 
+	docker version
+         ******Installation complete******

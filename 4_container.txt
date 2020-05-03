@@ -1,0 +1,35 @@
+                                  *************************CONTAINER***********************
+Defination:-
+
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. 
+A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. 
+Container images become containers at runtime and in the case of Docker containers - images become containers when they run on Docker Engine. Available for both Linux and Windows-based applications, containerized software will always run the same, regardless of the infrastructure. 
+Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging
+
+
+Show all container(running/stop):-
+docker ps -a
+
+Create a new container:-
+syntax-docker run -it --name container name image name:version  
+
+Example:-docker run -it --name myos1 centos:7
+	
+Stop a running container:-
+Syntax- docker stop container name
+Example- docker stop myos1
+
+Exit from a container and return to base os(RHEL8)
+exit 
+
+Remove a container 
+Syntax-docker rm container name 
+Example-docker rm myos1
+
+For help
+docker container --help
+
+****************************END****************************
+
+
+						  

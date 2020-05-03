@@ -1,0 +1,12 @@
+******************************OWN IMAGE & CONTAINER******************************
+To create a own persional image:-
+docker commit myos1 myimage:v1  
+
+Check image created or not:-
+cmd - Syntax-docker images
+
+Run a container form created image:-
+Syntax-docker run -dit --name containername personal image name:version 
+cmd- docker run -dit --name co_os1 myimage:v1
+
+

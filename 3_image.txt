@@ -1,0 +1,16 @@
+                                          *************Images*************
+Image in docker:-
+In Docker, everything is based on Images. An image is a combination of a file system and parameters. 
+
+Displaying Docker Images
+To see the list of Docker images on the system, you can issue the following command.
+docker images
+
+Download a image in Docker :-
+docker pull images name:version
+example:-docker pull centos:7
+
+Delete a image in Docker:-
+docker rmi image name:version
+example:-docker rmi centos:7
+

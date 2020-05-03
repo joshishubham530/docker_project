@@ -1,0 +1,14 @@
+											**********************volume**********************
+
+volume in docker:-
+In order to be able to save (persist) data and also to share data between containers, Docker came up with the concept of volumes. Quite simply, volumes are directories (or files) that are outside of the default Union File System and exist as normal directories and files on the host filesystem.
+
+Create voulme in docker:-
+Syntax- docker volume create volume name 
+cmd - docker volume create myst1
+
+To view created volume:-
+docker volume ls 
+
+For help related to volume:-
+docker volume --help

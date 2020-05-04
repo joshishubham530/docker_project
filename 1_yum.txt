@@ -9,7 +9,7 @@ YUM configuration in base os(RHEL).
 3:-Make a file with extension .repo
       
 	cat dvd.repo
-4
+	
 4:-Open the file 
 	gedit dvd.repo
 

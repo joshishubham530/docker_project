@@ -1,0 +1,17 @@
+YUM configuration in base os(RHEL).
+
+1:-Mount the rhel dvd 
+
+2:-Go inside the yum.repos.d folder 
+    
+	cd etc/yum.repo.d
+
+3:-Make a file with extension .repo
+      
+	cat dvd.repo
+4
+4:-Open the file 
+	gedit dvd.repo
+
+5:-Now copy the path of desired dvd 
+     
